@@ -1,0 +1,17 @@
+/* --- Global Styles --- */
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* สำหรับล็อกขนาดเว็บ */
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.02);
+    overflow-x: auto; 
+    overflow-y: auto;
+}

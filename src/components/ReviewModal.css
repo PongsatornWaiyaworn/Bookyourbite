@@ -1,0 +1,106 @@
+/* พื้นหลังของ modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* สีพื้นหลังให้เบลอ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* ให้อยู่ด้านบน */
+  }
+  
+  /* กรอบของ modal */
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* หัวข้อใน modal */
+  .modal-content h2 {
+    margin: 0 0 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* จัดระเบียบและรูปแบบฟอร์ม */
+  .modal-content div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  input[type="number"]:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* ปุ่มที่อยู่ใต้ modal */
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  /* สไตล์ปุ่ม */
+  .modal-buttons button {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-buttons button:hover {
+    opacity: 0.8;
+  }
+  
+  /* สไตล์ปุ่มส่งรีวิว */
+  .modal-buttons button:first-child {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .modal-buttons button:first-child:hover {
+    background-color: #218838;
+  }
+  
+  /* สไตล์ปุ่มปิด */
+  .modal-buttons button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .modal-buttons button:last-child:hover {
+    background-color: #c82333;
+  }
+  

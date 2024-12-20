@@ -1,0 +1,141 @@
+.restaurant-info-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.restaurant-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.reserve-button {
+    padding: 10px 20px;
+    background-color: #FC8A17;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.reserve-button:hover {
+    background-color: #FF9E00;
+}
+
+/* Modal styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.loading {
+    font-size: 1.2rem;
+    color: #888;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submit-button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #286090;
+}
+
+
+/* สำหรับภาพปก */
+.restaurant-image {
+    height: 550px;  /* ปรับความสูงของภาพปก */
+    width: 100%;    /* ทำให้ภาพปกเต็มความกว้าง */
+    object-fit: cover;  /* ทำให้ภาพครอบคลุมพื้นที่โดยไม่บิดเบี้ยว */
+}
+
+/* สำหรับภาพโปรไฟล์ */
+.restaurant-image-Pro {
+    width: 200px;  /* กำหนดความกว้างของภาพโปรไฟล์ */
+    height: 200px; /* ความสูงของภาพโปรไฟล์ ให้เป็นทรงสี่เหลี่ยมจัตุรัส */
+    object-fit: cover;   /* ให้ภาพครอบคลุมพื้นที่โดยไม่บิดเบี้ยว */
+}
+
+.con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .con div p {
+    display: flex;
+    margin: 15px 0;
+    font-size: 18px;
+    padding-left: 62px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end; /* จัดวางปุ่มชิดขอบขวา */
+    margin-top: 10px; /* เว้นระยะห่างจากข้อมูลอื่น ๆ */
+  }
+
+  .btn-jong{
+    display: flex;
+    justify-content: flex-end;
+    padding: 32px;
+  }
+
+  .btn-jong button{
+    width: 200px;
+  }
+
+
+.submit-button:hover {
+    background-color:#FC8A17;
+}
